@@ -1,0 +1,19 @@
+{
+  "name": "testing-github-actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ali92hm/testing-github-actions.git",
+  "author": "ali92hm <ali@alihm.net>",
+  "license": "MIT",
+  "scripts": {
+    "start": "./bin/alihm",
+    "dev": "nodemon ./bin/alihm",
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

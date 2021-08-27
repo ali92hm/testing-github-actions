@@ -1,0 +1,15 @@
+name: release
+on:
+  workflow_run: # only runs after the tests run on the master merge
+    workflows:
+      - tests
+    branches: master
+    types:
+      - completed
+
+jobs:
+  docker-build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker build -t cool .

@@ -1,5 +1,9 @@
 name: learn-github-actions
-on: [pull_request]
+on:
+  push:
+    branches:
+      - master
+
 jobs:
   check-install-dep:
     runs-on: ubuntu-latest

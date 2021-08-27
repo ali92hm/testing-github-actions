@@ -8,12 +8,14 @@
   "scripts": {
     "start": "./bin/alihm",
     "dev": "nodemon ./bin/alihm",
-    "test": "echo \"No tests\""
+    "lint": "echo \"Running linters\"",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "jest": "^27.0.6"
   }
 }

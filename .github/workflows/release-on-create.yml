@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: echo 'Release created GITHUB_SHA'
+      - run: echo 'Release created $GITHUB_SHA'

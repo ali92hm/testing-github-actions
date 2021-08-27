@@ -9,7 +9,6 @@ on:
       - opened
       - synchronize
 
-
 jobs:
   build-and-test:
     runs-on: ubuntu-latest

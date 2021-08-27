@@ -6,7 +6,6 @@ on:
 jobs:
   docker-build-and-test:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }} # only run if the test workflow was successful
     steps:
       - uses: actions/checkout@v2
       - run: echo 'Release released'

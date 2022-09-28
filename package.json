@@ -6,16 +6,14 @@
   "author": "ali92hm <ali@alihm.net>",
   "license": "MIT",
   "scripts": {
-    "start": "./bin/alihm",
-    "dev": "nodemon ./bin/alihm",
+    "start": "node server.js",
     "lint": "echo \"Running linters\"",
     "test": "jest"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12",
-    "jest": "^27.0.6"
+    "jest": "^29.0.3"
   }
 }
